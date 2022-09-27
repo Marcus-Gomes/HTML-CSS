@@ -6,3 +6,5 @@ Teste de escrita para o GITHUB
 
 
 <a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex001/index.html" target="_blank">Executar o exercício 001 </a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex002/" target="_blank">Executar o exercício 002 </a>
