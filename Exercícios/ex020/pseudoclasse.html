@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div.div1 {
+            display: inline-block;
+            border: 1px solid black;
+            text-align: center;
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+        }
+/* 
+        As Pseudo classes é o estado do elemento, pode ser ativo, desabilitado, habilitado, marcado, etc
+        HOVER, quando passar o mouse por cima
+*/
+        div.div1:hover {
+            background-color: yellow;
+            color: black;
+        }
+
+        /* nao mostrar o paragrafo que está dentro da div, o paragrafo filho da div*/
+        div > p {
+            display: none;
+        }
+        /* Se eu passar o mouse na div que tem um paragrafo dentro, mostrará no display */
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 200px;
+        }
+
+        div:hover {
+            color: red
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">01</div>
+    <div class="div1">02</div>
+    <div class="div1">03</div>
+
+
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>

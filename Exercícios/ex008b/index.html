@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formataçoes</h1>
+    <h2>Código-fonte / pré formatada</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <code> <!--A tag CODE nao respeita a identação do código pra isso deve usar a tag PRE-->
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else;
+            print(f' O número {num} é IMPAR')
+        print('Fim do programa')
+    </code>
+    <pre>
+        <code> <!--A tag CODE nao respeita a identação do código pra isso deve usar a tag PRE-->
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else;
+        print(f' O número {num} é IMPAR')
+    print('Fim do programa')
+        </code>
+    </pre> <!-- A TAG PRE respeita todas as identaçoes do código-->
+    <h2>Citações simples</h2> <!--Para usar citaçao, usar a tag Q, nao quebra linha-->
+    <p>Esse texto tem um <q>citaçao</q></p>
+
+    <h2>Citações completas</h2> 
+    <p>Para uma citaçao completa:</p>
+    <blockquote cite="URL DA CITAÇAO QUE PEGOU">
+        Aqui está a citaçao
+    </blockquote>
+    <h2>Abreviaçoes</h2>
+    <p>Passe o mouse em cima do <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    <h2>Texto Invertido</h2>
+    <p>Leia da direita pra esquerda, <bdo dir="rtl">Usar a TAG BDO</bdo></p>
+</body>
+</html>

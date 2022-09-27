@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+
+/* 
+Cores utilizadas
+#f9f9fba0;
+#04D9D9
+#049DBF
+#0367A6
+*/
+
+/* :root é uma pseudo classe, é a raíz da árvore do documento criaremos nela algumas váriaveis globais
+As variaveis em CSS começam com --
+
+*/
+:root {
+    --cor0:#f9f9fba0;
+    --cor1: #04D9D9;
+    --cor2: #049DBF;
+    --cor3: #0367A6;
+
+    --fonte-padrao: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*   o * seleciona todos os elementos do HTML para fazer uma configuraçao global */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+
+header {
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.35);
+}
+
+header > p {
+    color: white;
+    font-size: 1em;
+    max-width: 500px;
+    margin: auto;
+    min-width: 100px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.35);
+}
+
+nav{
+    background-color: var(--cor3);
+    box-shadow: 0px 7px 7px  rgba(0, 0, 0, 0.327);
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor3);
+    
+    
+
+}
+
+main {
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.239);
+}
+
+/* Se nao colocar > , significa que o p pode estar em qualquer nível dentro do main */
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+main a {
+    color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+a.externo::after {
+    content: '\1F517';
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+main h1 {
+    background-image: linear-gradient(to right, var(--cor2), transparent );
+    text-indent: 8px;
+}
+
+main img {
+    width: 100%;
+}
+
+
+
+main .imagem-pequena {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.352);
+}
+
+aside > h3 {
+    background-color: var(--cor3);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor3);
+    color: white;
+    padding: 5px;
+}

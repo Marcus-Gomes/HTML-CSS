@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+        body {
+            background-color: #04D9D9;
+            margin: 0px;
+            padding: 0px;
+            font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        div > header {
+            margin: 0px;
+            padding: 4vw 4vw 1% 4vw;
+            background-image: linear-gradient(to top, #0367A6, #04D9D9);
+            margin-top: -4vh;
+            box-shadow: 0px 0.5vh 2vh 1vh rgba(0, 0, 0, 0.327);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5%;
+        }
+
+        nav > a:hover{
+            border: 1px solid #f9f9fba0;
+            box-shadow: 0.5px 0.5px 1px 1px rgba(255, 255, 255, 0.554);
+            border-radius: 10px;
+
+        }
+
+        .cabecalho {
+            text-align: center;
+            color: white;
+            /* font-size: 6vh; */
+            padding-top: 5px;
+        }
+        .cabecalho2 {
+            text-align: center;
+            color: white;
+            padding-bottom: 30px;
+            /* font-size: 2.5vh; */
+            width: 40vw;
+            margin: auto;
+        }
+        
+        main {
+            margin-right: 10vw;
+            margin-left: 10vw;
+            margin-top: 0;
+            background-color: white;
+            padding: 0;
+            border-radius: 15px;
+            box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.239);
+        }
+
+        p {
+            text-indent: 4%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        h1 {
+            padding-top: 20px;
+            padding-left: 20px;
+
+        }
+
+        h2 {
+            padding-left: 20px;
+        }
+
+        .img1 {
+            text-align: center;
+
+        }
+
+        .div_video {
+            background-color: #049DBF;
+            width: 95%;
+            padding: 2.5%;
+            margin: auto;
+
+        }
+
+        .extra {
+            border: 0.5px solid rgba(0, 0, 0, 0.133) ;
+            border-radius: 25px;
+            background-color: #049dbf96;
+            box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.248);
+            margin: 20px 20px 0 20px;
+
+            padding: 5px;
+        }
+        .h2extra {
+            background-color: #0367A6;
+            width: auto;
+            margin-top: -5px;
+            margin-left: -6px;
+            margin-right: -6px;
+            padding: 2% 0 1% 1.5%;
+            border-radius: 25px 25px 0 0;
+            color: white;
+        }
+        /* Nao consegui colocar as listas uma do lado da outra */
+        .listas {  
+            display: inline;
+
+        }
+
+        .ult_paragrafo {
+            padding-bottom: 20px;
+        }
+
+
+        footer {
+            text-align: center;
+        }

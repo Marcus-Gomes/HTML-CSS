@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado no meu próprio servidor, gerando um tráfego de banda que pode gerar problemas no bolso do cliente.</p>
+    <video poster="imagens/thumbnail.png" width="200" controls autoplay loop> <!--Assim o navegador tentará reproduzir um por um, é como se fosse um IF-->
+        <source src="midia/video-handbrake.webm" type="video/webm">
+        <source src="midia/video-handbrake.mp4" type="video/mp4">
+        <p>Seu navegador nao tem compatibilidade com reproduçao de videos</p>
+    </video>
+
+    <h1>Vídeos hospedados externamente / YOUTUBE</h1>
+    <p>Esse vídeo está hospedado em servidor externo</p> <!-- Código retirado do youtube em compartilhar/incorporar, assim resolve o problema de banda por hospedagem de vídeo-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

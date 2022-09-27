@@ -1,0 +1,42 @@
+@charset "URF-8";
+/*
+ em HTML é id = em CSS é # (só pode um elemento)
+ em HTML é class = em CSS é . (pode ter vários elementos)
+
+*/
+
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: red;
+}
+/* O h1 que tem o identificador (#) principal, terá outros estilos 
+Se utilizar assim:
+#principal {
+    color: blue;
+}
+tudo que tiver o ID principal, será estilazados desta maneira
+*/
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+.basico {
+    color: green;
+}
+
+.trecho {
+    font-size: 1.5em;
+}
+
+.destaque {
+    background-color: rgba(171, 171, 81, 0.542);
+}

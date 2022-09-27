@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+/*
+Seletores personalizados
+
+# = id
+. = class
+: = pseudo-class
+:: =pseudo-element
+> = Children
+
+*/
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: yellow;
+        }
+        /*
+        pseudo elementos vem antes ou depois do conteudo, parte periferica
+        referenciado por ::
+        */
+        a::after {
+            content: ' [link]';
+            color: darkgreen;
+            background-color: orange ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://google.com.br" target="_blank">Google</a></li>
+        <li><a href="https://youtube.com.br">Youtube</a></li>
+        <li><a href="https://google.com.br">Google2</a></li>
+
+    </ul>
+</body>
+</html>
