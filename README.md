@@ -60,3 +60,5 @@ Teste de escrita para o GITHUB
 <a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex021/caixa02.html" target="_blank">Executar o exercício 021 - Grouping Tags</a>
 
 <a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/Desafios/Desafio%2010%20-%20site%20completo/index.html" target="_blank">Executar o Desafio 010 - Site feito por mim</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/Desafios/Desafio%2010%20-%20site%20completo%20-%20versao%20guanabara/index.html" target="_blank">Executar o Desafio 010 - Site feito pelo Guanabara</a>
