@@ -36,3 +36,26 @@ Teste de escrita para o GITHUB
 <a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex015/index.html" target="_blank">Executar o exercício 015 - Style Locais/Internos</a>
 
 <a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex016/cor1.html" target="_blank">Executar o exercício 016 - Cores em CSS</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex016/cor2.html" target="_blank">Executar o exercício 016 - Gradiente em CSS</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex016/cor3.html" target="_blank">Executar o exercício 016 - Cores em CSS + exemplos</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex017/fonte01.html" target="_blank">Executar o exercício 017 - Fontes em CSS</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex017/fonte02.html" target="_blank">Executar o exercício 017 - Alinhamento em CSS</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex018/font01.html" target="_blank">Executar o exercício 018 - Fontes externas</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex018/font02.html" target="_blank">Executar o exercício 018 - Fontes externas2</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex019/seletor01.html" target="_blank">Executar o exercício 019 - Seletores personalizados</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex020/link.html" target="_blank">Executar o exercício 020 - Links</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex020/pseudoclasse.html" target="_blank">Executar o exercício 020 - PseudoClasses</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex021/caixa01.html" target="_blank">Executar o exercício 021 - Modelos de caixas</a>
+
+<a href="https://marcus-gomes.github.io/HTML-CSS/Exerc%C3%ADcios/ex021/caixa02.html" target="_blank">Executar o exercício 021 - Groupind Tags</a>
+
